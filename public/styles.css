@@ -1,0 +1,66 @@
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+#cont-foto{
+    width: 400px;
+    height: 400px;
+    background-image: url('./imgs/photos/fot4.jpeg');
+    background-repeat: no-repeat;
+    background-position: -15px -180px;
+    background-size: 450px;
+}
+#marca{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Splash', cursive;
+    font-family: 'The Nautigal', cursive;
+    font-size: 30px;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(216, 216, 216);
+}
+#img-about{
+    width: 350px;
+}
+#img-unp{
+    width: 350px;
+}
+.imgs-skills{
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 1100px) {
+    #cont-foto{
+        width: 350px;
+        height: 350px;
+        background-size: 370px;
+    }
+    .imgs-skills{
+        width: 70px;
+        height: 70px;
+    }
+    #img-about{
+        width: 320px;
+    }
+}
+@media (max-width: 768px) {
+    #cont-foto{
+        width: 300px;
+        height: 300px;
+        background-size: 320px;
+    }
+}
+a{
+    text-decoration: none;
+}
+.titulos{
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: rgb(105, 103, 103);
+}

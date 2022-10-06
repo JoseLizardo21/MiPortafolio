@@ -1,0 +1,43 @@
+/* animation */
+body {
+    position:fixed;
+    background-color:#111;
+}
+div {
+    width:3em;
+    height:3em;
+    position:absolute;
+    border-radius:50%;
+    animation:down 1s ease-out;
+}
+@keyframes down {
+    0% {
+        transform:scale(2);
+        opacity:1;
+        filter:brightness(200%);
+    }
+    100% {
+        transform:scale(.2);
+        opacity:0;
+    }
+}
+/*style message*/
+.cont{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    padding: 5px;
+    width: 200px;
+    background-color: rgb(186, 186, 186);
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgb(92, 92, 92);
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
